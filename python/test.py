@@ -25,6 +25,8 @@ class B(A):
     def __repr__(self):
         return f"B({self.x})"
     
+
+    
 def test_addition():
     a1 = A(5)
     a2 = A(10)
